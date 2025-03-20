@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
+/* start header */
+.header-bar {
+    height: 50px;
+    width: 100%;
+    background-color: #1a4845;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8125rem;
+    position: relative;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    
+}
+
+
+.header-bar span {
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+                                           /* start bar-two */
+.header .bar-two {
+    width: 100%;
+    font-size: 14px;
+    position: relative;
+    border-bottom: 1px solid rgb(222, 224, 234);
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.bar-two .container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 0.225rem;
+    padding-bottom: 0.225rem;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.bar-two p{
+    color: #54595F;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.bar-two p span{
+    color: #ee403d;
+    font-weight: 500;
+    
+}
+
+nav {
+    color: black;
+    font-weight: 500;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.fa-instagram {
+    font-size: 12px;
+    font-weight: 500;
+}
+.Followers{
+    font-size: 12px !important;
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin-left: 3px;
+    font-family: Jost;
+}
+
+.bar-two .right-items{
+        float: right;
+
+}
+.right-items button{
+    background-color: #fff;
+    border: none;
+    color: #54595F;
+
+}
