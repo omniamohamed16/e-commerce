@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 p {
     margin-top: 0;
     margin-bottom: 0 !important;
@@ -8,16 +9,15 @@ p {
 
 /* start header */
 .header-bar {
-    height: 50px;
     width: 100%;
     background-color: #1a4845;
     color: #fff;
     text-align: center;
-    font-size: 0.8125rem;
+    font-size: 12px;
     position: relative;
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
-    
+
 }
 
 
@@ -26,7 +26,7 @@ p {
     cursor: pointer;
 }
 
-                                           /* start bar-two */
+/* start bar-two */
 .header .bar-two {
     width: 100%;
     font-size: 14px;
@@ -47,19 +47,23 @@ p {
     align-items: center;
     justify-content: space-between;
 
-    
+
 }
 
-.bar-two p{
+.bar-two span {
+    cursor: pointer;
+}
+
+.bar-two p {
     color: #54595F;
     font-weight: 500;
     margin-left: 20px;
 }
 
-.bar-two p span{
+.bar-two p span {
     color: #ee403d;
     font-weight: 500;
-    
+
 }
 
 nav {
@@ -71,7 +75,7 @@ nav {
 
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: black;
 }
@@ -80,7 +84,8 @@ nav a{
     font-size: 12px;
     font-weight: 500;
 }
-.Followers{
+
+.Followers {
     font-size: 12px !important;
     font-weight: 600;
     letter-spacing: .5px;
@@ -88,13 +93,117 @@ nav a{
     font-family: Jost;
 }
 
-.bar-two .right-items{
-        float: right;
+.bar-two .right-items {
+    float: right;
 
 }
-.right-items button{
+
+.right-items button {
     background-color: #fff;
     border: none;
     color: #54595F;
 
+}
+
+/* third bar */
+.bar-three {
+    width: 100%;
+    font-size: 14px;
+    position: relative;
+    border-bottom: 1px solid rgb(222, 224, 234);
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.three-lines{
+    cursor: pointer;
+}
+.three-lines div:nth-child(1) , 
+.three-lines div:nth-child(2), 
+.three-lines div:nth-child(3) {
+    background-color: #111;
+    height: 1px;
+    width: 20px;
+    margin-bottom: 7px;
+}
+
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: white;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+.logo{
+    color: black;
+margin-left: 20px;
+font-size: 50px;
+font-weight: bolder;
 }
