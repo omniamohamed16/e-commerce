@@ -7,7 +7,6 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -113,9 +112,10 @@
                 <div class="right-items">
                     <div class="side-nav">
                         <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                             <div class="menu-content">
-                                <h3>MIILLS.</h3>
-                                <span class="main-menu">Main Menu</span>
+                                <h3 class="Mills-title">MIILLS.</h3>
+                                <div class="main-menu">Main Menu</div>
                                 <!-- Buttons trigger collapse -->
                                 <div class="vertical-menu">
                                     <div>
@@ -125,12 +125,11 @@
                                             Home
                                         </a>
                                         <div class="collapse" id="collapseHome">
-                                            <a href="javascript:void(0)" class="closebtn"
-                                                onclick="closeNav()">&times;</a>
-                                            <a href="#">Home 1</a>
-                                            <a href="#">Home 2</a>
-                                            <a href="#">Home 3</a>
-                                            <a href="#">Home 4</a>
+
+                                            <a class="links" href="#">Home 1</a>
+                                            <a class="links" href="#">Home 2</a>
+                                            <a class="links" href="#">Home 3</a>
+                                            <a class="links" href="#">Home 4</a>
                                         </div>
                                     </div>
                                     <div>
@@ -153,54 +152,55 @@
                                     <a href="#">Outerwear</a>
                                     <a href="#">Blog</a>
                                     <a href="#">Contact</a>
+                                    <div class="line"></div>
                                 </div>
-                                <div class="line"></div>
 
-                                <span class="main-menu">Categories</span>
-                                <!-- Buttons trigger collapse -->
                                 <div class="vertical-menu">
-                                    <div>
-                                        <a class="home-tittle tittle" data-mdb-collapse-init data-mdb-ripple-init
-                                            href="#collapseMen" role="button" aria-expanded="false"
-                                            aria-controls="collapseMen">
-                                            Men
-                                        </a>
-                                        <div class="collapse" id="collapseMen">
-                                            <a href="javascript:void(0)" class="closebtn"
-                                                onclick="closeNav()">&times;</a>
-                                            <a href="#">Jackets</a>
+                                    <div class="main-menu">Categories</div>
+                                    <!-- Buttons trigger collapse -->
+                                    <div class="vertical-menu">
+                                        <div>
+                                            <a class="home-tittle tittle" data-mdb-collapse-init data-mdb-ripple-init
+                                                href="#collapseMen" role="button" aria-expanded="false"
+                                                aria-controls="collapseMen">
+                                                Men
+                                            </a>
+                                            <div class="collapse" id="collapseMen">
+                                                <a href="javascript:void(0)" class="closebtn"
+                                                    onclick="closeNav()">&times;</a>
+                                                <a href="#">Jackets</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <a class=" tittle" data-mdb-collapse-init data-mdb-ripple-init
-                                            href="#collapseWomen" role="button" aria-expanded="false"
-                                            aria-controls="collapseWomen">
-                                            Women
-                                        </a>
-                                        <div class="collapse" id="collapseWomen">
-                                            <a href="javascript:void(0)" class="closebtn"
-                                                onclick="closeNav()">&times;</a>
-                                            <a href="#">Dresses</a>
-                                            <a href="#">Skirts</a>
+                                        <div>
+                                            <a class=" tittle" data-mdb-collapse-init data-mdb-ripple-init
+                                                href="#collapseWomen" role="button" aria-expanded="false"
+                                                aria-controls="collapseWomen">
+                                                Women
+                                            </a>
+                                            <div class="collapse" id="collapseWomen">
+                                                <a href="javascript:void(0)" class="closebtn"
+                                                    onclick="closeNav()">&times;</a>
+                                                <a href="#">Dresses</a>
+                                                <a href="#">Skirts</a>
+                                            </div>
                                         </div>
+                                        <a href="#">Women</a>
+                                        <a href="#">Men</a>
+                                        <a href="#">Kids</a>
+                                        <a href="#">Baby</a>
+                                        <a href="#">Bags</a>
+                                        <a href="#">Accessories</a>
+                                        <a href="#">Watches</a>
+                                        <a href="#">Cargo Trousers</a>
+                                        <a href="#">Outerwear</a>
+                                        <a href="#">Belts</a>
+                                        <a href="#">Best Sellers</a>
+                                        <a href="#">Featured Products</a>
+                                        <a href="#">New Arrivals</a>
+                                        <a href="#">Ready to Wear</a>
+                                        <a href="#">All For Men</a>
+
                                     </div>
-                                    <a href="#">Women</a>
-                                    <a href="#">Men</a>
-                                    <a href="#">Kids</a>
-                                    <a href="#">Baby</a>
-                                    <a href="#">Bags</a>
-                                    <a href="#">Accessories</a>
-                                    <a href="#">Watches</a>
-                                    <a href="#">Cargo Trousers</a>
-                                    <a href="#">Outerwear</a>
-                                    <a href="#">Belts</a>
-                                    <a href="#">Best Sellers</a>
-                                    <a href="#">Featured Products</a>
-                                    <a href="#">New Arrivals</a>
-                                    <a href="#">Ready to Wear</a>
-                                    <a href="#">All For Men</a>
-
-
                                 </div>
                             </div>
                         </div>
@@ -236,6 +236,8 @@
         import { Dropdown, Ripple, initMDB } from "mdb-ui-kit";
 
         initMDB({ Dropdown, Ripple });</script>
+    <script src='main.js'></script>
+
 </body>
 
 </html>

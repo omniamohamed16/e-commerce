@@ -8,9 +8,23 @@ function openNav() {
   }
 
   window.addEventListener("click" , function(e){
-       e.stopPropagation()     
+    e.stopPropagation()
 
-    if(e.target.className !== "l1" && e.target.className !== "three-lines" && e.target.className !== "menu-content" ){
+    if(e.target.className !== "l1" && e.target.className !== "three-lines" && e.target.className !== "Mills-title"  && e.target.className !== "menu-content" ){
 
     document.getElementById("mySidenav").style.width = "0";}
   })
+
+  menuLinks = document.querySelectorAll(".vertical-menu a")
+
+  menudiv = document.querySelectorAll(".menu-content div")
+
+  menudiv.forEach(element => {
+    element.onclick= function(e){e.stopPropagation()}
+  });
+  
+  menuLinks.forEach(element => {
+    
+    element.onclick= function(e){e.stopPropagation()}
+  });
+  
