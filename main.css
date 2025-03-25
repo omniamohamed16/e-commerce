@@ -118,17 +118,20 @@ nav a {
     align-items: center;
 }
 
-.right-items{
+.left-items {
     display: flex;
     flex-direction: row;
     align-items: center;
+    float: left;
+    gap: 20px;
 }
 
-.three-lines{
+.three-lines {
     cursor: pointer;
 }
-.three-lines div:nth-child(1) , 
-.three-lines div:nth-child(2), 
+
+.three-lines div:nth-child(1),
+.three-lines div:nth-child(2),
 .three-lines div:nth-child(3) {
     background-color: #111;
     height: 1px;
@@ -150,28 +153,28 @@ nav a {
     transition: 0.5s;
 }
 
-.sidenav .main-menu{
+.sidenav .main-menu {
     font-weight: bold;
     font-family: jost;
-    
+
 }
 
-.sidenav h3{
+.sidenav h3 {
     color: #000;
     margin-bottom: 30px;
     font-weight: 1000;
 }
 
-.sidenav .menu-content{
+.sidenav .menu-content {
     padding-left: 20px;
-    
+
 }
 
-.menu-content .tittle{
+.menu-content .tittle {
     margin-bottom: 5px;
 }
 
-.menu-content .home-tittle{
+.menu-content .home-tittle {
     margin-top: 10px;
 }
 
@@ -187,12 +190,13 @@ nav a {
     border-bottom: 0;
     border-left: .3em solid rgba(0, 0, 0, 0);
 }
-.vertical-menu{
+
+.vertical-menu {
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.line{
+.line {
     background-color: #a4a7ab;
     width: 100%;
     height: 1px;
@@ -202,7 +206,7 @@ nav a {
 
 .sidenav a {
     color: rgb(0, 0, 0);
-    padding: 5px 5px  8px;
+    padding: 5px 5px 8px;
     text-decoration: none;
     font-size: 16px;
     font-family: Roboto;
@@ -238,9 +242,25 @@ nav a {
 
 
 
-.logo{
+.logo {
     color: black;
-margin-left: 20px;
-font-size: 50px;
-font-weight: bolder;
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.search-bar {
+    width: 500px;
+    float: right;
+}
+
+.fa-user {
+    font-size: 20px;
+}
+
+.right-items2 {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

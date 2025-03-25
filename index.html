@@ -23,6 +23,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
@@ -109,7 +110,7 @@
         <!-- bar-three -->
         <div class="bar-three">
             <div class="container">
-                <div class="right-items">
+                <div class="left-items">
                     <div class="side-nav">
                         <div id="mySidenav" class="sidenav">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -126,10 +127,10 @@
                                         </a>
                                         <div class="collapse" id="collapseHome">
 
-                                            <a class="links" href="#">Home 1</a>
-                                            <a class="links" href="#">Home 2</a>
-                                            <a class="links" href="#">Home 3</a>
-                                            <a class="links" href="#">Home 4</a>
+                                            <a href="#">Home 1</a>
+                                            <a href="#">Home 2</a>
+                                            <a href="#">Home 3</a>
+                                            <a href="#">Home 4</a>
                                         </div>
                                     </div>
                                     <div>
@@ -199,7 +200,6 @@
                                         <a href="#">New Arrivals</a>
                                         <a href="#">Ready to Wear</a>
                                         <a href="#">All For Men</a>
-
                                     </div>
                                 </div>
                             </div>
@@ -213,11 +213,21 @@
                     <div class="logo">
                         MILLS.
                     </div>
-                    <div class="dropdowns">
+                    <div class="search-bar">
+                        <div class="input-group">
+                            <div class="form-outline" data-mdb-input-init>
+                              <input type="search" id="form1" class="form-control" />
+                              <label class="form-label" for="form1">Search</label>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+                              <i class="fas fa-search"></i>
+                            </button>
+                          </div>
                     </div>
                 </div>
-                <div class="left-items">
-
+                
+                <div class="right-items2">
+                    <i class="fa-regular fa-user"></i>
                 </div>
             </div>
         </div>
