@@ -111,10 +111,15 @@ nav a {
     font-size: 14px;
     position: relative;
     border-bottom: 1px solid rgb(222, 224, 234);
+    
+    height: 100px;
+
+}
+
+.bar-three .container{
     display: flex;
     flex-direction: row;
-    height: 100px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -254,13 +259,38 @@ nav a {
     float: right;
 }
 
-.fa-user {
-    font-size: 20px;
+.fa-user , .fa-heart{
+    font-size: 15px;
 }
 
-.right-items2 {
+.bar-three .right-items {
     float: right;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: #000;
 }
+
+.fa-heart{
+    position: relative;
+}
+
+.bar-three .right-items .fa-heart::after{
+    content: "0";
+    font-size: x-small;
+    background-color: red;
+    color: #fff;
+    width: 13px;
+    height: 13px;
+    text-align:center;
+    vertical-align:baseline;
+    border-radius: 100%;
+    display:inline-block;
+    position: relative;
+    top: -9px;
+    right: 4px;
+}
+
+
+
