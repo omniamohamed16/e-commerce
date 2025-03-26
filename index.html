@@ -74,7 +74,6 @@
                         </div>
                         <p>Free Shipping World wide for all orders over $199. <span> Click and Shop Now.</span></p>
                 </div>
-
                 </nav>
                 <!-- right-items  -->
                 <div class="right-items">
@@ -111,133 +110,189 @@
         <div class="bar-three">
             <div class="container">
                 <div class="left-items">
-                    <div class="side-nav">
-                        <div id="mySidenav" class="sidenav">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <div class="menu-content">
-                                <h3 class="Mills-title">MIILLS.</h3>
-                                <div class="main-menu">Main Menu</div>
-                                <!-- Buttons trigger collapse -->
-                                <div class="vertical-menu">
-                                    <div>
-                                        <a class="home-tittle tittle" data-mdb-collapse-init data-mdb-ripple-init
-                                            href="#collapseHome" role="button" aria-expanded="false"
-                                            aria-controls="collapseExample">
-                                            Home
-                                        </a>
-                                        <div class="collapse" id="collapseHome">
-
-                                            <a href="#">Home 1</a>
-                                            <a href="#">Home 2</a>
-                                            <a href="#">Home 3</a>
-                                            <a href="#">Home 4</a>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <a class=" tittle" data-mdb-collapse-init data-mdb-ripple-init
-                                            href="#collapseShop" role="button" aria-expanded="false"
-                                            aria-controls="collapseExample">
-                                            Shop
-                                        </a>
-                                        <div class="collapse" id="collapseShop">
-                                            <a href="javascript:void(0)" class="closebtn"
-                                                onclick="closeNav()">&times;</a>
-                                            <a href="#">Shop 1</a>
-                                            <a href="#">Shop 2</a>
-                                            <a href="#">Shop 3</a>
-                                            <a href="#">Shop 4</a>
-                                        </div>
-                                    </div>
-                                    <a href="#">Women</a>
-                                    <a href="#">Men</a>
-                                    <a href="#">Outerwear</a>
-                                    <a href="#">Blog</a>
-                                    <a href="#">Contact</a>
-                                    <div class="line"></div>
-                                </div>
-
-                                <div class="vertical-menu">
-                                    <div class="main-menu">Categories</div>
-                                    <!-- Buttons trigger collapse -->
-                                    <div class="vertical-menu">
-                                        <div>
-                                            <a class="home-tittle tittle" data-mdb-collapse-init data-mdb-ripple-init
-                                                href="#collapseMen" role="button" aria-expanded="false"
-                                                aria-controls="collapseMen">
-                                                Men
-                                            </a>
-                                            <div class="collapse" id="collapseMen">
-                                                <a href="javascript:void(0)" class="closebtn"
-                                                    onclick="closeNav()">&times;</a>
-                                                <a href="#">Jackets</a>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <a class=" tittle" data-mdb-collapse-init data-mdb-ripple-init
-                                                href="#collapseWomen" role="button" aria-expanded="false"
-                                                aria-controls="collapseWomen">
-                                                Women
-                                            </a>
-                                            <div class="collapse" id="collapseWomen">
-                                                <a href="javascript:void(0)" class="closebtn"
-                                                    onclick="closeNav()">&times;</a>
-                                                <a href="#">Dresses</a>
-                                                <a href="#">Skirts</a>
-                                            </div>
-                                        </div>
-                                        <a href="#">Women</a>
-                                        <a href="#">Men</a>
-                                        <a href="#">Kids</a>
-                                        <a href="#">Baby</a>
-                                        <a href="#">Bags</a>
-                                        <a href="#">Accessories</a>
-                                        <a href="#">Watches</a>
-                                        <a href="#">Cargo Trousers</a>
-                                        <a href="#">Outerwear</a>
-                                        <a href="#">Belts</a>
-                                        <a href="#">Best Sellers</a>
-                                        <a href="#">Featured Products</a>
-                                        <a href="#">New Arrivals</a>
-                                        <a href="#">Ready to Wear</a>
-                                        <a href="#">All For Men</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <span class="three-lines" onclick="openNav()">
-                            <div class="l1"></div>
-                            <div class="l1"></div>
-                            <div class="l1"></div>
-                        </span>
-                    </div>
+                    <span class="three-lines" onclick="openNav()">
+                        <div class="l1"></div>
+                        <div class="l1"></div>
+                        <div class="l1"></div>
+                    </span>
                     <div class="logo">
                         MILLS.
                     </div>
+                </div>
+                <div class="central-items">
                     <div class="search-bar">
                         <div class="input-group">
                             <div class="form-outline" data-mdb-input-init>
-                              <input type="search" id="form1" class="form-control" />
-                              <label class="form-label" for="form1">Search</label>
+                                <input type="search" id="form1" class="form-control" />
+                                <label class="form-label" for="form1">Search</label>
                             </div>
-                            <button type="button" class="btn btn-primary" data-mdb-ripple-init>
-                              <i class="fas fa-search"></i>
-                            </button>
-                          </div>
+                            <div class="dropdown">
+                                <button class="search-btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-mdb-dropdown-init data-mdb-ripple-init aria-expanded="false">
+                                    Select Category </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="#">Men</a></li>
+                                    <li><a class="dropdown-item" href="#">Women</a></li>
+                                    <li><a class="dropdown-item" href="#">Kids</a></li>
+                                    <li><a class="dropdown-item" href="#">Bags</a></li>
+                                    <li><a class="dropdown-item" href="#">Shoes</a></li>
+                                    <li><a class="dropdown-item" href="#">Belts</a></li>
+                                    <li><a class="dropdown-item" href="#">Outwear</a></li>
+                                    <li><a class="dropdown-item" href="#">Cargo Trouser</a></li>
+
+
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
                 <div class="right-items">
                     <i class="fa-regular fa-user"></i>
-                    <i class="fa-regular fa-heart" style="color: #000000;"></i>     
-                    <span> $0.00 </span>     
-                    <i class="fa-solid fa-cart-shopping" style="color: #000205;"></i>            
-                    </div>
+                    <i class="fa-regular fa-heart" style="color: #000000;"></i>
+                    <span> $0.00 </span>
+                    <i class="fa-solid fa-cart-shopping" style="color: #000205;"></i>
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- side-nav -->
+    <div class="side-nav">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="menu-content">
+                <h3 class="Mills-title">MIILLS.</h3>
+                <div class="main-menu">Main Menu</div>
+                <!-- Buttons trigger collapse -->
+                <div class="vertical-menu">
+                    <div>
+                        <a class="home-tittle tittle" data-mdb-collapse-init data-mdb-ripple-init href="#collapseHome"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Home
+                        </a>
+                        <div class="collapse" id="collapseHome">
+                            <a href="#">Home 1</a>
+                            <a href="#">Home 2</a>
+                            <a href="#">Home 3</a>
+                            <a href="#">Home 4</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a class=" tittle" data-mdb-collapse-init data-mdb-ripple-init href="#collapseShop"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Shop
+                        </a>
+                        <div class="collapse" id="collapseShop">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">Shop 1</a>
+                            <a href="#">Shop 2</a>
+                            <a href="#">Shop 3</a>
+                            <a href="#">Shop 4</a>
+                        </div>
+                    </div>
+                    <a href="#">Women</a>
+                    <a href="#">Men</a>
+                    <a href="#">Outerwear</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                    <div class="line"></div>
+                </div>
+                <div class="vertical-menu">
+                    <div class="main-menu">Categories</div>
+                    <!-- Buttons trigger collapse -->
+                    <div class="vertical-menu">
+                        <div>
+                            <a class="home-tittle tittle" data-mdb-collapse-init data-mdb-ripple-init
+                                href="#collapseMen" role="button" aria-expanded="false" aria-controls="collapseMen">
+                                Men
+                            </a>
+                            <div class="collapse" id="collapseMen">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <a href="#">Jackets</a>
+                            </div>
+                        </div>
+                        <div>
+                            <a class=" tittle" data-mdb-collapse-init data-mdb-ripple-init href="#collapseWomen"
+                                role="button" aria-expanded="false" aria-controls="collapseWomen">
+                                Women
+                            </a>
+                            <div class="collapse" id="collapseWomen">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <a href="#">Dresses</a>
+                                <a href="#">Skirts</a>
+                            </div>
+                        </div>
+                        <a href="#">Women</a>
+                        <a href="#">Men</a>
+                        <a href="#">Kids</a>
+                        <a href="#">Baby</a>
+                        <a href="#">Bags</a>
+                        <a href="#">Accessories</a>
+                        <a href="#">Watches</a>
+                        <a href="#">Cargo Trousers</a>
+                        <a href="#">Outerwear</a>
+                        <a href="#">Belts</a>
+                        <a href="#">Best Sellers</a>
+                        <a href="#">Featured Products</a>
+                        <a href="#">New Arrivals</a>
+                        <a href="#">Ready to Wear</a>
+                        <a href="#">All For Men</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </div>
+    <!-- end sidenav -->
 
+    <!-- bar-four -->
+    <div class="bar-four">
+        <div class="container">
+            <div class="left-items4">
+                
+                    <a class="all-Categories" data-mdb-collapse-init data-mdb-ripple-init href="#collapseCategories"
+                        role="button" aria-expanded="false" aria-controls="collapseCategories">
+                        
+                        <span>All Categories</span>
+                         <div class="square">72</div>
+                        <i class="fa-solid fa-angle-down" style="opacity: .5; margin-left: 60px; margin-right: 10px;"></i>
+                    </a> 
+                    <div class="collapse" id="collapseCategories">
+                        <a href="#">Women</a>
+                        <a href="#">Men</a>
+                        <a href="#">Kids</a>
+                        <a href="#">Baby</a>
+                        <a href="#">Bags</a>
+                        <a href="#">Accessories</a>
+                        <a href="#">Watches</a>
+                        <a href="#">Cargo Trousers</a>
+                        <a href="#">Outerwear</a>
+                        <a href="#">Belts</a>
+                        <a href="#">Best Sellers</a>
+                        <a href="#">Featured Products</a>
+                        <div class="line"></div>
+                        <a href="#">New Arrivals</a>
+                        <a href="#">Ready to Wear</a>
+                        <a href="#">All For Men</a>
+                    </div>
+                
+            </div>
+            <div class="separating-line"></div>
+            <!-- <div class="right-items4">
+                <div class="dropdown">
+                    <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-dropdown-init
+                        data-mdb-ripple-init aria-expanded="false">
+                        English
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><button class="dropdown-item" type="button">English</button></li>
+                        <li><button class="dropdown-item" type="button">Spanish</button></li>
+                        <li><button class="dropdown-item" type="button">German</button></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
 
 
 
