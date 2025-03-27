@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Mills Store</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <!-- Font Awesome -->
@@ -249,10 +249,9 @@
     <div class="bar-four">
         <div class="container">
             <div class="left-items4">
-                
-                    <a class="all-Categories" data-mdb-collapse-init data-mdb-ripple-init href="#collapseCategories"
+                <div class="dropdown" style="position: relative;">
+                    <a class="all-Categories" data-mdb-collapse-init data-mdb-ripple-init data-mdb-dropdown-animation="off" href="#collapseCategories"
                         role="button" aria-expanded="false" aria-controls="collapseCategories">
-                        
                         <span>All Categories</span>
                          <div class="square">72</div>
                         <i class="fa-solid fa-angle-down" style="opacity: .5; margin-left: 60px; margin-right: 10px;"></i>
@@ -275,21 +274,13 @@
                         <a href="#">Ready to Wear</a>
                         <a href="#">All For Men</a>
                     </div>
-                
+                </div>
             </div>
+
             <div class="separating-line"></div>
-            <!-- <div class="right-items4">
-                <div class="dropdown">
-                    <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-dropdown-init
-                        data-mdb-ripple-init aria-expanded="false">
-                        English
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <li><button class="dropdown-item" type="button">English</button></li>
-                        <li><button class="dropdown-item" type="button">Spanish</button></li>
-                        <li><button class="dropdown-item" type="button">German</button></li>
-                    </ul>
-                </div> -->
+
+            <div class="right-items4">
+                
             </div>
         </div>
     </div>
@@ -303,7 +294,13 @@
         // Initialization for ES Users
         import { Dropdown, Ripple, initMDB } from "mdb-ui-kit";
 
-        initMDB({ Dropdown, Ripple });</script>
+        initMDB({ Dropdown, Ripple });
+        
+        // Initialization for ES Users
+import { Collapse, Ripple, initMDB } from 'mdb-ui-kit';
+
+initMDB({ Collapse, Ripple });
+</script>
     <script src='main.js'></script>
 
 </body>

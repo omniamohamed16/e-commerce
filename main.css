@@ -343,45 +343,44 @@ border: .5px solid #e0e0e0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    overflow: hidden;
+
 }
 
 .bar-four .container{
     position: relative;
-    overflow: hidden;
+        display: flex;
+    align-items: center;
 }
 
 
 .bar-four .left-items4{
     float: left;
-    overflow: hidden;
+
 
 
 }
-.left-items4 a ,
-.right-items4 a{
+.left-items4 a {
     padding:  10px 0 10px 10px;;
     text-decoration: none;
     color: rgb(0, 0, 0);   
-     display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
+
 }
 
 
 .left-items4 .collapse,
-.right-items4 .collapse{
-    position: relative;
+.left-items4 .collapsing {
+    position: absolute;
     border-right: rgb(222, 224, 234) 1px solid;
-    width: inherit;
-    overflow: hidden;
+
 }
-.left-items4 .collapse a,
-.right-items4 .collapse a{
-    display: block;
-    padding:  7px 113px 7px 10px;;
+.left-items4 .collapse ,
+.left-items4 .collapsing 
+{
+    padding:  7px 151px 7px 10px;;
 
 }
 
@@ -402,14 +401,18 @@ border: .5px solid #e0e0e0;
 }
 
 .bar-four .separating-line{
+
     height: 60px;
     width: 1px;
     background-color: rgb(222, 224, 234);
     position: relative;
     float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
-.right-items{
-    float: left;
+.right-items4{
+    float: right;
 }
+
