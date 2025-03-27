@@ -284,7 +284,7 @@ border: .5px solid #e0e0e0;
 }
 
 .bar-three .right-items {
-
+    cursor: pointer;
     float: right;
     display: flex;
     align-items: center;
@@ -359,8 +359,8 @@ border: .5px solid #e0e0e0;
 
 
 }
-.left-items4 a {
-    padding:  10px 0 10px 10px;;
+.left-items4  a {
+    padding:  7px 20px 7px 10px;;
     text-decoration: none;
     color: rgb(0, 0, 0);   
     display: flex;
