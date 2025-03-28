@@ -413,6 +413,64 @@ border: .5px solid #e0e0e0;
 
 
 .right-items4{
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #000;
 }
+
+
+.right-items4 button{
+    color: #000;
+  margin-right: 50px;
+  border: none;
+  background-color: #fff;
+}
+
+
+.right-items4 a{
+    color: #000;
+  margin-right: 50px;
+  border: none;
+  background-color: #fff;
+}
+
+ 
+.dropdown .menu{
+display:flex;
+padding: 20px;
+
+}
+
+.dropdown .menu ul , li{
+text-decoration: none;
+list-style: none;
+width: 200px;
+}
+.dropdown .menu li{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.dropdown .menu span{
+    opacity: 0.5;
+    
+}
+
+.dropdown:hover>.dropdown-menu  {
+
+    display: block;
+    top: 40px;
+    left: -11px;
+    box-shadow: none;
+    border-radius: 0;
+    border:rgb(222, 224, 234) 1px solid ;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
 
