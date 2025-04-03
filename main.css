@@ -363,13 +363,11 @@ nav a {
 
 .bar-four .left-items4 {
     float: left;
-
-
-
 }
 
-.left-items4 .collapse a {
-   padding: 15px 95px 0px 12px;
+.left-items4 .collapse a,
+.left-items4 .collapsing a  {
+   padding: 15px 140px 0px 12px;
 }
 
 .left-items4 a {
@@ -382,7 +380,9 @@ nav a {
     align-items: center;
 
 }
-
+.bar-four .left-items4 .all-Categories{
+ padding-right: 46px;
+}
 .left-items4 .collapse .rotate,
 .left-items4 .collapsing .rotate {
     rotate: -89deg;
@@ -529,7 +529,14 @@ nav a {
 /* Hero-Section */
 
 .hero-section{
-    width: 100;
-    height: 100%;
-    background-image: url("./images/slider-01.jpg");
+    width: 100%;
+    
+}
+
+.carousel{
+    width: 70%;
+    height: 500px;
+    position: relative;
+    top: 30px;
+    left: 306px;
 }
