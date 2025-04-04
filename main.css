@@ -543,16 +543,17 @@ nav a {
 
 .hero-section .slider-01 {
     position: absolute;
-    top: 200px;
+    top: 100px;
     left: 100px;
     z-index: 1000;
     color: white;
 }
 
 .hero-section p{
-    font-size: 100px;
+    
+    font-size: 60px;
     position: absolute;
-    top: 300px;
+    top: 120px;
     left: 100px;
     z-index: 1000;
     color: white;
