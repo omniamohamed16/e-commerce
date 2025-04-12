@@ -691,7 +691,8 @@ margin-right: 20px;
 }
 
 
-.new-season .banner-content h1{
+.new-season .banner-content h1,
+.new-season .banner-content h2{
     margin-bottom: 20px;
     margin-top:10px !important ;
     font-weight: 600;
@@ -702,7 +703,6 @@ margin-right: 20px;
     color: #75767c;
 
 }
-
 
 
 
