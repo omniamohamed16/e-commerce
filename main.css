@@ -544,10 +544,10 @@ nav a {
     display: flex;
     flex-direction: column;
 }
-.carousel{
+.hero-section .carousel{
     width: 70%;
 
-    position: absolute;
+    position: relative;
     top: 30px;
     left: 306px;
     cursor: pointer;
@@ -715,3 +715,45 @@ margin-right: 20px;
         color: #000;
 }
 
+  .product-card {
+           border: 1px solid #ddd;
+           border-radius: 10px;
+           overflow: hidden;
+           box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+           transition: 0.3s;
+           height: 100%;
+         }
+     
+         .product-card img {
+           height: 250px;
+           object-fit: cover;
+         }
+     
+         .discount, .tag {
+           position: absolute;
+           top: 10px;
+           left: 10px;
+           background-color: #198754;
+           color: #fff;
+           padding: 5px 10px;
+           font-size: 14px;
+           border-radius: 5px;
+           z-index: 10;
+         }
+     
+         .tag {
+           background-color: #fd7e14;
+         }
+     
+         .product-info {
+           padding: 15px;
+         }
+     
+         .price del {
+           color: #999;
+           margin-right: 5px;
+         }
+     
+         .carousel-item {
+           padding: 20px 0;
+         }
